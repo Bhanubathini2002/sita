@@ -1,0 +1,32 @@
+to create repository 
+git init
+git status
+
+to add existing all the changes 
+git add .
+
+to create a file 
+git add file name
+
+to add a good message 
+git commit -m "added message"
+
+for login in terminal use
+
+to push 
+git push  
+
+…or create a new repository on the command line
+echo "# bhanu" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Bhanubathini2002/bhanu.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Bhanubathini2002/bhanu.git
+git branch -M main
+git push -u origin main
